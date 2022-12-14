@@ -9,10 +9,10 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
 
-@Aspect
-@Component
+//@Aspect
+//@Component
 @Slf4j
-public class PermissionAspect {
+public class PermissionParametersAspect {
 
     private static final String LOGIN_ID_PARAM = "loginMemberId";
     private static final String ACCESS_NUMBER_PARAM = "accessNumber";

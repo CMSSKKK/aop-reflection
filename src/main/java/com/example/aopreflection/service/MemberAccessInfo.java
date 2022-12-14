@@ -13,10 +13,4 @@ public class MemberAccessInfo {
     private final Long loginMemberId;
     private final Long accessNumber;
 
-    public MemberAccessInfo(Long loginMemberId, Long accessNumber) {
-        this.loginMemberId = loginMemberId;
-        this.accessNumber = accessNumber;
-    }
-
-
 }
