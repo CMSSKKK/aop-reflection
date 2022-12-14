@@ -41,7 +41,7 @@ public class PermissionParametersAspect {
         }
 
         MemberAccessInfo memberAccessInfo = getMemberAccessInfo(args, parameterNames, parameterTypes);
-
+        log.info(memberAccessInfo.toString());
         MemberLevel memberLevel = requiredPermission.requiredLevel();
         log.info("required level = {}", requiredPermission.requiredLevel());
         // 권한 체크

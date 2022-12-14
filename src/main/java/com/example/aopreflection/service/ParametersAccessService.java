@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 public class ParametersAccessService {
 
     private static String READ_MESSAGE = "%d번 멤버가 %d번 data에 READ 권한이 필요한 접근을 했어요.";
-    private static String MAINTAIN_MESSAGE = "%d번 멤버가 %d번 data를 MAINTAIN 권한이 필요한 접근을 했어요.";
-    private static String HOST_MESSAGE = "%d번 멤버가 %d번 data를 HOST 권한이 필요한 접근을 했어요.";
+    private static String MAINTAIN_MESSAGE = "%d번 멤버가 %d번 data에 MAINTAIN 권한이 필요한 접근을 했어요.";
+    private static String HOST_MESSAGE = "%d번 멤버가 %d번 data에 HOST 권한이 필요한 접근을 했어요.";
 
     @RequiredPermission(requiredLevel = MemberLevel.READ)
     public String readInfos(Long loginMemberId, Long accessNumber) {
